@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/picture/22.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 19%;
+}
+
+.left{
+    margin-left: 6%;
+}
+
+.left h3{
+    margin-top: 60px;
+    font-size: 40px;
+    color: aliceblue;
+    line-height: 60px;
+    float: left;
+    align-items: center;
+    letter-spacing: 3rem;
+}
+
+.right{
+    margin-right: 15.7%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.right h3{
+    font-size: 10px;
+    color: rgb(234, 13, 13);
+    font-weight: 400;
+    margin-top: 130px;
+}
+
+.button{
+    position: absolute;
+    top: 11%;
+    left: 77.5%;
+    width: 105px;
+    float: right;
+
+}
+
+#icon{
+    cursor: pointer;
+}
